@@ -4367,6 +4367,7 @@ namespace PluginCCS {
                 "    This Action allows you to temporarily change what model people have for the current world.",
                 "    Run this Action with no arguments to set the player's model back to what it was before.",
                 "    This Action only works if the MOTD of the level has one or more models forced with model=[something]",
+                "    The model given does not need to be in the MOTD.",
             }; } }
 
             public override string name { get { return "changemodel"; } }
